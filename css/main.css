@@ -1,0 +1,41 @@
+/*Inserta tu css aqui*/
+
+body{
+	background-color: #ECECEC;
+}
+.sidebar-toggle-box{
+	z-index: 1;
+}
+#container{
+	width: 100%;
+}
+.logo{
+	display: inline-block;
+}
+.black-bg {
+	background-color: #495171;
+	width: 100%;
+}
+
+.top-menu nav{
+	
+}
+.header{
+	position: fixed;
+	width: 100%;
+}
+aside{
+	/*position: fixed;
+	left: 0;
+	top: 70px;*/
+
+}
+.main-chart{
+	
+}
+.pt-25{
+	
+}
+.box1{
+	
+}

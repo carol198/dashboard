@@ -1,0 +1,68 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+/*--------------------------------------------*/
+body{
+	background-color: #ECECEC;
+}
+/*-------------header--------------------*/
+.sidebar-toggle-box{
+	z-index: 1;
+	margin-left: 0px;
+	float: left;
+	padding: 10px;
+	border:2px solid green;
+}
+#container{
+	width: 100%;
+}
+.logo{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.black-bg {
+	background-color: #495171;
+	width: 100%;
+}
+
+.top-menu nav{
+	list-style: none;
+}
+.nav-collapse img{
+	margin-top: 100px;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	
+}
+.logout{
+	background-color:#57105D;
+	border-radius: 100px;
+}
+
+.tooltips{
+	color:white;
+	float: left;
+}
+#sidebar{
+	margin-left: 0px;
+}
+.sidebar-menu{
+	list-style-type: none;
+	width: 210px;
+	background-color: #495171;
+}
+
+/*Escribe aqui tu codigo */
+
