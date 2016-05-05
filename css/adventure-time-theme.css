@@ -15,21 +15,17 @@ body{
 	background-color: #ECECEC;
 }
 /*-------------header--------------------*/
-.sidebar-toggle-box{
+.sidebar-toggle-box {
 	z-index: 1;
 	margin-left: 0px;
 	float: left;
 	padding: 10px;
 	border:2px solid green;
+	color: white;
 }
 #container{
 	width: 100%;
 }
-.logo{
-	display: inline-block;
-	text-decoration: none;
-}
-
 .black-bg {
 	background-color: #495171;
 	width: 100%;
@@ -41,27 +37,31 @@ body{
 .nav-collapse img{
 	margin-top: 100px;
 }
+.nav-collapse ul{
+	margin-left: 0px;
+
+}
 .header{
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
-	
 }
 .logout{
 	background-color:#57105D;
 	border-radius: 100px;
 }
-
-.tooltips{
-	color:white;
-	float: left;
-}
-#sidebar{
-	margin-left: 0px;
-}
 .sidebar-menu{
 	list-style-type: none;
 	width: 210px;
 	background-color: #495171;
+	display: inline-block;
+	margin-left: 0px;
+	position: fixed;
+}
+.sub-menu{
+	margin-left: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+
 }
 
 /*Escribe aqui tu codigo */
