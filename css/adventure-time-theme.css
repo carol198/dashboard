@@ -10,17 +10,16 @@
 .sidebar-closed #sidebar {
     margin-left: -180px;
 }
-/*--------------------------------------------*/
+/*------------common----------------------*/
 body{
 	background-color: #ECECEC;
 }
+
 /*-------------header--------------------*/
 .sidebar-toggle-box {
-	z-index: 1;
 	margin-left: 0px;
 	float: left;
 	padding: 10px;
-	border:2px solid green;
 	color: white;
 }
 #container{
@@ -30,21 +29,21 @@ body{
 	background-color: #495171;
 	width: 100%;
 }
-
 .top-menu nav{
 	list-style: none;
-}
-.nav-collapse img{
-	margin-top: 100px;
+	top:200px;
 }
 .nav-collapse ul{
 	margin-left: 0px;
-
+	margin-top: 50px;
 }
 .header{
 	/*position: fixed;*/
 	width: 100%;
+	z-index: 1;
+	position: fixed;
 }
+
 .logout{
 	background-color:#57105D;
 	border-radius: 100px;
@@ -53,16 +52,114 @@ body{
 	list-style-type: none;
 	width: 210px;
 	background-color: #495171;
-	display: inline-block;
+	padding-bottom: 70px;
 	margin-left: 0px;
 	position: fixed;
+	z-index: 1;
+	height: 100%;
 }
 .sub-menu{
 	margin-left: 0px;
 	padding-bottom: 20px;
 	padding-left: 0px;
+	
+}
+.sub-menu:hover{
+	
+	background-color: #57105D;
+	width: 100%;
+}
+.top-menu nav{
+	border:2px solid white;
+	background-color: white;
+	position: fixed;
+}
+/*---------body---------------*/
+#main-content{
+	margin-left: 210px;
+	padding-top: 100px;
+}
+#sidebar{
+	height: 100%;
+}
+.ds{
+	background-color: white;
+	border-bottom: 2px solid grey;
+}
+.showback{
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.box1{
+	border-bottom: 2px solid grey;
+}
+.box0:hover{
+	opacity: 1;
+	text-align: center;
+	background-color: white;
+}
+.box0 p{
+	visibility: hidden;
+	text-align: center;
+
+}
+.box0:hover p{
+	color: red;
+	display: block;
+	visibility: visible;
+	text-align: center;	
+	font-size: 10px;
 
 }
 
-/*Escribe aqui tu codigo */
-
+.box1 > span{
+	font-size: 50px;
+	color: grey;
+}
+/*----------LOGIN------------*/
+.form-login{
+	width: 300px;
+	margin-left: 35%;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.form-login-heading{
+	width: 300px;
+	height: 130px;
+	text-align: center;
+	background-color: #76E4FA;
+	margin-bottom: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding:30px 30px;
+	color: white;
+}
+.login-wrap{
+	width: 250px;
+	padding-left: 10% 10%;
+	margin-left: 8%;
+}
+.login-social-link centered{
+	margin-left: 20px;
+}
+/*----------FORMULARIO------------*/
+.mt{
+	padding: 10px;
+	margin-left: 100px;
+}
+.form-panel{
+	background-color: white;
+	padding: 10px;
+}
+/*----------BASIC TABLES------------*/
+.content-panel{
+	display: block;
+	background-color: white;
+	margin-left: 30px;
+	padding: 10px;
+}
+.showback{
+	border: 2px solid green;
+}
